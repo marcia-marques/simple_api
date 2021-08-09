@@ -1,2 +1,14 @@
-# Project exclude paths
-/venv/
+.idea/
+
+# virtual environment
+venv/
+
+# database
+*.sqlite3
+
+# pycache
+simple_api/__pycache__/
+stations/__pycache__/
+
+# migrations
+stations/migrations/

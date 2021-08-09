@@ -5,4 +5,11 @@ from .models import Station
 class StationSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Station
-        fields = ('id', 'url', 'name', 'coordinate', 'lat', 'lon', 'description')
+        fields = ('id',
+                  'url',
+                  'name',
+                  'coordinate',
+                  'lat',
+                  'lon',
+                  'description',
+                  )
